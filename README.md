@@ -99,5 +99,19 @@ The scraped data is stored in SQLite3.
 
 Section 5: Data Loaded into Pandas and Classified
 
+After storage, the database is read back into a Pandas DataFrame (df) for analysis. Then, the DataFrame is cleaned and classified for analysis.
+
+PhD location Classification
+	•	Indian city and institute names are defined in a list. [AI was used to create a long and near-exhaustive list]
+	•	Each faculty’s PhD column is checked against this list.
+	•	If matched, classified as “India”; otherwise “Abroad”.
+	•	This gives a new column PhD_Institution.
+
+Designation Classification
+	•	Faculty are classified into Professor, Associate Professor, or Assistant Professor based on keywords in the “designation” column.
+	•	This gives a new column Position_Class.
+
+After this section, the DataFrame is ready for visualizations and further analysis.
 
 
+Section 6: Table Formatting and Visual Effects
