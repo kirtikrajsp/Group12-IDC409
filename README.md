@@ -114,4 +114,28 @@ Designation Classification
 After this section, the DataFrame is ready for visualizations and further analysis.
 
 
-Section 6: Table Formatting and Visual Effects
+
+Section 6: Table Formatting
+
+After classification, table is formatted for better readability.
+	•	Styles like borders, padding, and header shading are applied.
+	•	A color gradient is applied to the ‘Years_of_Experience’ column using .background_gradient() to visually highlight more experienced faculty with darker colors.
+	•	Column widths are adjusted for neat display.
+
+
+
+Section 7: Pie Chart
+
+Pie charts are generated using Matplotlib to show distributions.
+	1.	PhD Location (India vs Abroad): Shows how many faculty completed PhDs in India or abroad.
+	2.	Designation: Displays proportion of Assistant, Associate, and full Professors.
+	3.	PhD Location for Each Designation: Separate charts for Professors, Associate Professors, and Assistant Professors to see proportion of abroad vs Indian PhDs.
+
+
+
+Section 8: Bar Graph
+
+Bar graphs compare data across categories:
+	1.	Average Number of Awards by Designation: Groups faculty by designation and calculates average number of awards for each designation.
+	2.	Average Experience by Designation: Shows average years of experience for each designation.
+	3.	Average Awards by PhD Location: Compares faculty with Indian vs. foreign PhDs.
