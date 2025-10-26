@@ -99,19 +99,19 @@ Section 4: Storing Data into SQLite3 Database
 
 Section 5: Data Loaded into Pandas and Classified
 
-After storage, the database is read back into a Pandas DataFrame (df) for analysis. Then, the DataFrame is cleaned and classified for analysis.
+	After storage, the database is read back into a Pandas DataFrame (df) for analysis. Then, the DataFrame is cleaned and classified for analysis.
 
-PhD location Classification
-	•	Indian city and institute names are defined in a list. [AI was used to create a long and near-exhaustive list]
-	•	Each faculty’s PhD column is checked against this list.
-	•	If matched, classified as “India”; otherwise “Abroad”.
-	•	This gives a new column PhD_Institution.
+		PhD location Classification
+			•	Indian city and institute names are defined in a list. [AI was used to create a long and near-exhaustive list]
+			•	Each faculty’s PhD column is checked against this list.
+			•	If matched, classified as “India”; otherwise “Abroad”.
+			•	This gives a new column PhD_Institution.
+		
+		Designation Classification
+			•	Faculty are classified into Professor, Associate Professor, or Assistant Professor based on keywords in the “designation” column.
+			•	This gives a new column Position_Class.
 
-Designation Classification
-	•	Faculty are classified into Professor, Associate Professor, or Assistant Professor based on keywords in the “designation” column.
-	•	This gives a new column Position_Class.
-
-After this section, the DataFrame is ready for visualizations and further analysis.
+	After this section, the DataFrame is ready for visualizations and further analysis.
 
 
 
