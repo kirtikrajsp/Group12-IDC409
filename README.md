@@ -5,6 +5,9 @@ Group 12 - Web Scraping 2
 Web scraping 2  is a data analysis project that collects, stores and processes information about faculty members from the Department of Biological Sciences (DBS), IISER Kolkata.
 It automatically extracts key academic details such as their Designation, PhD background, Research interests, Awards,Years of experience, and then stores the data in a SQLite3 database and generates graphs for analysis.
 
+You can view the uploaded code file directly in this repository, or open and run it in Google Colab using the link below: 
+https://colab.research.google.com/drive/1i2tkJ30xqfwBDpRkpPjCH6ybAHxFXxCa?usp=sharing
+
 What does the code do?
 
 	1.	Scrapes the main IISER Kolkata DBS faculty webpage to get all individual faculty profile links.
