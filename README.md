@@ -136,27 +136,27 @@ Section 7: Pie Chart
 
 Section 8: Bar Graph
 
-Bar graphs compare data across categories:
-	1.	Average Number of Awards by Designation: Groups faculty by designation and calculates average number of awards for each designation.
-	2.	Average Experience by Designation: Shows average years of experience for each designation.
-	3.	Average Awards by PhD Location: Compares faculty with Indian vs. foreign PhDs.
-
-
+	Bar graphs compare data across categories:
+		1.	Average Number of Awards by Designation: Groups faculty by designation and calculates average number of awards for each designation.
+		2.	Average Experience by Designation: Shows average years of experience for each designation.
+		3.	Average Awards by PhD Location: Compares faculty with Indian vs. foreign PhDs.
+	
+	
 
 Section 9: Swarm Plot Visualization
 
-Seaborn is used to create swarm plots showing distributions of individual data points:
-	1.	PhD Location vs. Years of Experience: Displays distribution of experience for faculty with Indian and foreign PhDs.
-	2.	Designation vs. Years of Experience: Shows experience distribution for each designation.
-	•	Each dot represents a faculty member.
-	•	These plots highlight variations and patterns among individual faculty members that are not visible in aggregated charts.
-
+	Seaborn is used to create swarm plots showing distributions of individual data points:
+		1.	PhD Location vs. Years of Experience: Displays distribution of experience for faculty with Indian and foreign PhDs.
+		2.	Designation vs. Years of Experience: Shows experience distribution for each designation.
+		•	Each dot represents a faculty member.
+		•	These plots highlight variations and patterns among individual faculty members that are not visible in aggregated charts.
+	
 Section 10: Scatter Plot
 
-A scatter plot shows the relationship between Years of Experience and Number of Awards:
-	•	Rows with missing data are removed.
-	•	Each dot represents a faculty member.
-	•	A grid is added for better readability.
-	•	A linear regression line is fitted using curve_fit:
-	•	The slope and intercept are calculated.
-	•	The line is plotted with slope shown in the legend.
+	A scatter plot shows the relationship between Years of Experience and Number of Awards:
+		•	Rows with missing data are removed.
+		•	Each dot represents a faculty member.
+		•	A grid is added for better readability.
+		•	A linear regression line is fitted using curve_fit:
+		•	The slope and intercept are calculated.
+		•	The line is plotted with slope shown in the legend.
