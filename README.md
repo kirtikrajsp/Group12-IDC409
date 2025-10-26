@@ -117,10 +117,10 @@ Section 5: Data Loaded into Pandas and Classified
 
 Section 6: Table Formatting
 
-After classification, table is formatted for better readability.
-	•	Styles like borders, padding, and header shading are applied.
-	•	A color gradient is applied to the ‘Years_of_Experience’ column using .background_gradient() to visually highlight more experienced faculty with darker colors.
-	•	Column widths are adjusted for neat display.
+	After classification, table is formatted for better readability.
+		•	Styles like borders, padding, and header shading are applied.
+		•	A color gradient is applied to the ‘Years_of_Experience’ column using .background_gradient() to visually highlight more experienced faculty with darker colors.
+		•	Column widths are adjusted for neat display.
 
 
 
