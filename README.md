@@ -89,12 +89,12 @@ Section 3: Scraping Faculty Details and Creating the Profile Dictionary
 
 Section 4: Storing Data into SQLite3 Database
 
-The scraped data is stored in SQLite3.
-	•	A new database faculty_data.db is created, with a table Faculty matching the profile dictionary keys.
-	•	Any existing table is dropped to avoid duplication.
-	•	Each profile is inserted with SQL commands in a Python loop.
-	•	conn.commit() saves all changes.
-
+	The scraped data is stored in SQLite3.
+		•	A new database faculty_data.db is created, with a table Faculty matching the profile dictionary keys.
+		•	Any existing table is dropped to avoid duplication.
+		•	Each profile is inserted with SQL commands in a Python loop.
+		•	conn.commit() saves all changes.
+	
 
 
 Section 5: Data Loaded into Pandas and Classified
