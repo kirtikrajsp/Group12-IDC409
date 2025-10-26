@@ -51,26 +51,26 @@ Section 1: Importing Required Libraries
 		•	matplotlib.pyplot is used for plotting graphs.
 		•	seaborn is used for swarm plots.
 		•	scipy.optimize is used for curve fitting in scatter plots.
-		•	tabulate and IPython.display help display tables neatly.
+		•	IPython.display helps to display tables neatly.
 
 
 
 Section 2: Fetching Faculty Profile URLs
 
-The main faculty page of IISER Kolkata’s Department of Biological Sciences is fetched using requests.get().
-	•	HTML content is parsed with BeautifulSoup.
-	•	All <a> links are collected, then filtered to retain only those belonging to faculty profiles.
-	•	Duplicate links are removed with set().
-	•	At the end of this step, we have 27 unique faculty profile URLs.
+	The main faculty page of IISER Kolkata’s Department of Biological Sciences is fetched using requests.get().
+		•	HTML content is parsed with BeautifulSoup.
+		•	All <a> links are collected, then filtered to retain only those belonging to faculty profiles.
+		•	Duplicate links are removed with set().
+		•	At the end of this step, we have 27 unique faculty profile URLs.
 
 
 
 Section 3: Scraping Faculty Details and Creating the Profile Dictionary
 
-Each faculty profile page is visited individually using requests.
-	•	BeautifulSoup parses each page to extract required information.
-	•	A dictionary called profile_data is created for each faculty member.
-
+	Each faculty profile page is visited individually using requests.
+		•	BeautifulSoup parses each page to extract required information.
+		•	A dictionary called profile_data is created for each faculty member.
+	
 The dictionary contains:
 	•	Name
 	•	Positions (all positions held)
