@@ -54,4 +54,14 @@ All Python libraries needed for this project are imported at the start.
 	•	tabulate and IPython.display help display tables neatly.
 
 
+
 Section 2: Fetching Faculty Profile URLs
+
+The main faculty page of IISER Kolkata’s Department of Biological Sciences is fetched using requests.get().
+	•	HTML content is parsed with BeautifulSoup.
+	•	All <a> links are collected, then filtered to retain only those belonging to faculty profiles.
+	•	Duplicate links are removed with set().
+	•	At the end of this step, we have 27 unique faculty profile URLs.
+
+
+Section 3: Scraping Faculty Details and Creating the Profile Dictionary
