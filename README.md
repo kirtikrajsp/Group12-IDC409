@@ -160,3 +160,11 @@ Section 10: Scatter Plot
 		•	A linear regression line is fitted using curve_fit:
 		•	The slope and intercept are calculated.
 		•	The line is plotted with slope shown in the legend.
+
+
+
+
+#When we started this project, we were complete beginners to coding. 
+Through this project, we gradually learnt how to use Python libraries such as Requests, BeautifulSoup, Pandas, Matplotlib, and SQLite3 to build a complete web scraping program. 
+AI was used at a few stages to understand certain coding concepts and improve clarity, but the implementation, debugging, and final analysis were done completely on our own. 
+We have tried our best to produce clean and well-structured code that gives meaningful analysis of the extracted data.
