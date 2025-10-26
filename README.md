@@ -20,9 +20,10 @@ What does the code do?
 	b.	Categorizes designations as Assistant / Associate / Professor.
 
 	6.	Performs data analysis and visualization using Matplotlib:
-	a.	Pie charts comparing Indian vs. Abroad PhD counts, Faculty designation distribution, and Indian vs. Abroad PhD comparison by designation (Professor, Associate, Assistant)
-	b.	Bar charts showing average awards and experience by designation, Comparison of awards by PhD location. 
-	c. Scatter plot 
+	a. Pie Charts: Compares Indian vs. Abroad PhD counts, faculty designation distribution, and Indian vs. Abroad PhD comparison by designation (Professor, Associate, Assistant).
+	b. Bar Charts: Shows average number of awards and average years of experience by designation, and compares average awards between Indian and Abroad PhD faculty.
+	c. Scatter Plot: Displays the relationship between Years of Experience and Number of Awards for all faculty members.
+	d. Swarm Plots: Visualizes the distribution of individual faculty experience data using Seaborn’s swarmplot. The first plot compares PhD Location (India/Abroad) against Years of Experience, while the second compares Designation vs. Years of Experience.
 
 
 Tools used:
@@ -148,7 +149,7 @@ Seaborn is used to create swarm plots showing distributions of individual data p
 	1.	PhD Location vs. Years of Experience: Displays distribution of experience for faculty with Indian and foreign PhDs.
 	2.	Designation vs. Years of Experience: Shows experience distribution for each designation.
 	•	Each dot represents a faculty member.
-	•	Swarm plots highlight individual variation within categories.
+	•	These plots highlight variations and patterns among individual faculty members that are not visible in aggregated charts.
 
 Section 10: Scatter Plot
 
