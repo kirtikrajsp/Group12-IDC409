@@ -127,10 +127,10 @@ Section 6: Table Formatting
 
 Section 7: Pie Chart
 
-Pie charts are generated using Matplotlib to show distributions.
-	1.	PhD Location (India vs Abroad): Shows how many faculty completed PhDs in India or abroad.
-	2.	Designation: Displays proportion of Assistant, Associate, and full Professors.
-	3.	PhD Location for Each Designation: Separate charts for Professors, Associate Professors, and Assistant Professors to see proportion of abroad vs Indian PhDs.
+	Pie charts are generated using Matplotlib to show distributions.
+		1.	PhD Location (India vs Abroad): Shows how many faculty completed PhDs in India or abroad.
+		2.	Designation: Displays proportion of Assistant, Associate, and full Professors.
+		3.	PhD Location for Each Designation: Separate charts for Professors, Associate Professors, and Assistant Professors to see proportion of abroad vs Indian PhDs.
 
 
 
