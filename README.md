@@ -166,5 +166,6 @@ Section 10: Scatter Plot
 
 When we started this project, we were complete beginners to coding.
 Through this project, we gradually learnt how to use Python libraries such as Requests, BeautifulSoup, Pandas, Matplotlib, and SQLite3 to build a complete web scraping program. 
+We initially coded everything from scratch on Google Colab because of its simplicity and ease of use. In the later stages, we pushed the our code to GitHub for sharing.
 AI was used at a few stages to understand certain coding concepts and improve clarity, but the implementation and debugging were done on our own. 
 We have tried our best to produce clean and well-structured code that gives meaningful analysis of the extracted data.
