@@ -71,19 +71,19 @@ Section 3: Scraping Faculty Details and Creating the Profile Dictionary
 		•	BeautifulSoup parses each page to extract required information.
 		•	A dictionary called profile_data is created for each faculty member.
 	
-The dictionary contains:
-	•	Name
-	•	Positions (all positions held)
-	•	Designation (current position)
-	•	Academic Background
-	•	PhD (Location)
-	•	PhD Year (of completion)
-	•	Years of Experience (calculated from 2025 minus PhD year)
-	•	Research Interests
-	•	Awards and Honors
-	•	Number of Awards
-All valid dictionaries are appended to all_data, forming a complete collection of faculty profiles.
-Pages that do not load or have missing information are skipped.
+	The dictionary contains:
+		•	Name
+		•	Positions (all positions held)
+		•	Designation (current position)
+		•	Academic Background
+		•	PhD (Location)
+		•	PhD Year (of completion)
+		•	Years of Experience (calculated from 2025 minus PhD year)
+		•	Research Interests
+		•	Awards and Honors
+		•	Number of Awards
+	All valid dictionaries are appended to all_data, forming a complete collection of faculty profiles.
+	Pages that do not load or have missing information are skipped.
 
 
 
