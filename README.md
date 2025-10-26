@@ -42,16 +42,16 @@ Now lets look at the code by analysing each section:
 
 Section 1: Importing Required Libraries
 
-All Python libraries needed for this project are imported at the start.
-	•	requests is used to fetch web pages from IISER Kolkata.
-	•	BeautifulSoup from bs4 parses the HTML content of these pages.
-	•	pandas and numpy handle data organization, cleaning, and analysis.
-	•	sqlite3 is used to create and manage a database for storing the scraped data.
-	•	re helps extract patterns such as PhD years.
-	•	matplotlib.pyplot is used for plotting graphs.
-	•	seaborn is used for swarm plots.
-	•	scipy.optimize is used for curve fitting in scatter plots.
-	•	tabulate and IPython.display help display tables neatly.
+	All Python libraries needed for this project are imported at the start.
+		•	requests is used to fetch web pages from IISER Kolkata.
+		•	BeautifulSoup from bs4 parses the HTML content of these pages.
+		•	pandas and numpy handle data organization, cleaning, and analysis.
+		•	sqlite3 is used to create and manage a database for storing the scraped data.
+		•	re helps extract patterns such as PhD years.
+		•	matplotlib.pyplot is used for plotting graphs.
+		•	seaborn is used for swarm plots.
+		•	scipy.optimize is used for curve fitting in scatter plots.
+		•	tabulate and IPython.display help display tables neatly.
 
 
 
