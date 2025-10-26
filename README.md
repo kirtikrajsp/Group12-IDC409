@@ -14,7 +14,7 @@ What does the code do?
 	3.	Stores the collected data into a local SQLite3 database for easy retrieval and further analysis.
 
 	4.	Loads the data into a Pandas DataFrame and performs classification:
-	a.	Automatically identifies whether the faculty’s PhD was done in India or Abroad.
+	a.	Classifies based on whether the faculty’s PhD was done in India or Abroad.
 	b.	Calculates years of experience since PhD.
 	c.	Categorizes designations as Assistant / Associate / Professor.
 
