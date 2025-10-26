@@ -64,4 +64,40 @@ The main faculty page of IISER Kolkata’s Department of Biological Sciences is 
 	•	At the end of this step, we have 27 unique faculty profile URLs.
 
 
+
 Section 3: Scraping Faculty Details and Creating the Profile Dictionary
+
+Each faculty profile page is visited individually using requests.
+	•	BeautifulSoup parses each page to extract required information.
+	•	A dictionary called profile_data is created for each faculty member.
+
+The dictionary contains:
+	•	Name
+	•	Positions (all positions held)
+	•	Designation (current position)
+	•	Academic Background
+	•	PhD (Location)
+	•	PhD Year (of completion)
+	•	Years of Experience (calculated from 2025 minus PhD year)
+	•	Research Interests
+	•	Awards and Honors
+	•	Number of Awards
+All valid dictionaries are appended to all_data, forming a complete collection of faculty profiles.
+Pages that do not load or have missing information are skipped.
+
+
+
+Section 4: Storing Data into SQLite3 Database
+
+The scraped data is stored in SQLite3.
+	•	A new database faculty_data.db is created, with a table Faculty matching the profile dictionary keys.
+	•	Any existing table is dropped to avoid duplication.
+	•	Each profile is inserted with SQL commands in a Python loop.
+	•	conn.commit() saves all changes.
+
+
+
+Section 5: Data Loaded into Pandas and Classified
+
+
+
