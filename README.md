@@ -34,3 +34,5 @@ Tools used:
 	•	Matplotlib → For plotting and visualization
 	•	NumPy → For numerical operations
 	•	Regular Expressions (re) → For cleaning and extracting text
+
+Now lets look at the code by analysing each section:
