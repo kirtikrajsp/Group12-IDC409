@@ -44,7 +44,7 @@ Tools used:
 Now lets look at the code by analysing each section:
 
 
-Section 1: Importing Required Libraries
+Section 1: IMPORTS
 
 	All Python libraries needed for this project are imported at the start.
 		•	requests is used to fetch web pages from IISER Kolkata.
@@ -59,7 +59,7 @@ Section 1: Importing Required Libraries
 
 
 
-Section 2: Fetching Faculty Profile URLs
+Section 2: IISER KOLKATA DBS WEBSITE
 
 	The main faculty page of IISER Kolkata’s Department of Biological Sciences is fetched using requests.get().
 		•	HTML content is parsed with BeautifulSoup.
@@ -69,7 +69,7 @@ Section 2: Fetching Faculty Profile URLs
 
 
 
-Section 3: Scraping Faculty Details and Creating the Profile Dictionary
+Section 3: SCRAPING AND FACULTY PROFILE CREATION
 
 	Each faculty profile page is visited individually using requests.
 		•	BeautifulSoup parses each page to extract required information.
@@ -91,7 +91,7 @@ Section 3: Scraping Faculty Details and Creating the Profile Dictionary
 
 
 
-Section 4: Storing Data into SQLite3 Database
+Section 4: STORE DATA IN SQLITE3 DATABASE
 
 	The scraped data is stored in SQLite3.
 		•	A new database faculty_data.db is created, with a table Faculty matching the profile dictionary keys.
@@ -101,7 +101,7 @@ Section 4: Storing Data into SQLite3 Database
 	
 
 
-Section 5: Data Loaded into Pandas and Classified
+Section 5: LOAD DATA INTO PANDAS
 
 	After storage, the database is read back into a Pandas DataFrame (df) for analysis. Then, the DataFrame is cleaned and classified for analysis.
 
@@ -119,7 +119,7 @@ Section 5: Data Loaded into Pandas and Classified
 
 
 
-Section 6: Table Formatting
+Section 6: TABLE FORMATTING
 
 	After classification, table is formatted for better readability.
 		•	Styles like borders, padding, and header shading are applied.
@@ -128,7 +128,7 @@ Section 6: Table Formatting
 
 
 
-Section 7: Pie Chart
+Section 7: PIE CHART VISUALISATION
 
 	Pie charts are generated using Matplotlib to show distributions.
 		1.	PhD Location (India vs Abroad): Shows how many faculty completed PhDs in India or abroad.
@@ -137,7 +137,7 @@ Section 7: Pie Chart
 
 
 
-Section 8: Bar Graph
+Section 8: BARGRAPH VISUALISATION
 
 	Bar graphs compare data across categories:
 		1.	Average Number of Awards by Designation: Groups faculty by designation and calculates average number of awards for each designation.
@@ -146,7 +146,7 @@ Section 8: Bar Graph
 	
 	
 
-Section 9: Swarm Plot Visualization
+Section 9: SWARM PLOT VISUALISATION
 
 	Seaborn is used to create swarm plots showing distributions of individual data points:
 		1.	PhD Location vs. Years of Experience: Displays distribution of experience for faculty with Indian and foreign PhDs.
@@ -154,7 +154,7 @@ Section 9: Swarm Plot Visualization
 		•	Each dot represents a faculty member.
 		•	These plots highlight variations and patterns among individual faculty members that are not visible in aggregated charts.
 	
-Section 10: Scatter Plot
+Section 10: SCATTER PLOT VISUALISATION
 
 	A scatter plot shows the relationship between Years of Experience and Number of Awards:
 		•	Rows with missing data are removed.
